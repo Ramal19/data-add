@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <button>GET ALL DATA</button> -->
+    <table border="2">
+        <thead>
+            <tr>
+                <th>CompanyName</th>
+                <th>ContactName</th>
+                <th>ContactTitle</th>
+            </tr>
+        </thead>
+        <tbody id="main">
+
+        </tbody>
+    </table>
+    <form id="myF">
+        <p>CompanyName:</p><input class="companyName" type="text">
+        <p>ContactName:</p><input class="contactName" type="text">
+        <p>ContactTitle:</p><input class="title" type="text">
+        <button id="send">Send</button>
+    </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.8/axios.min.js" integrity="sha512-PJa3oQSLWRB7wHZ7GQ/g+qyv6r4mbuhmiDb8BjSFZ8NZ2a42oTtAq5n0ucWAwcQDlikAtkub+tPVCw4np27WCg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./sciprt.js"></script>
+</body>
+</html>
